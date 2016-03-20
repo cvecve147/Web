@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menunav{  
+	color: white;  
+    overflow: hidden;
+    background-color: #333;
+    font-size: 24px; 
+}
+.menunav li {
+	float: left;
+	padding: 14px 16px;
+}
+.right{
+    float: right;
+}
+.right ul{
+	list-style-type: none;
+}
+.right li {
+	list-style-type: none;
+    float: left;
+}
+.right li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.right li:hover {
+    background-color: #111;
+}
+/*-------------------------------------------------------nav-------------------------------------------------*/
+.center{
+	width: 100%;
+	background-color:rgba(255, 255, 255, 0.7);
+	border-radius:50px 50px 0 0 ;
+
+}
+.center table{
+	float:left;
+}
+h1{
+	text-align:center;
+}
+.center td:nth-child(2n){
+	font-size:18px;
+}
+.center td:nth-child(2),.center td:nth-child(1){
+	text-align:left;
+	width:150px;
+}
+.center li{
+	margin: 10px;
+}
+
+#js ,.program{
+	width: 100%;
+	text-align: center;
+} 
+#js table ,.program table{
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.program{
+	line-height:2em;
+	font-size:24px;
+}
+#js svg,.program svg{margin:80px; overflow: visible;}
+ol{
+	width:150px;
+}
+table
+{
+  border-collapse:collapse;
+}
+table, td, th
+{
+	border:1px solid #aaa;
+	border-width: 0 0 1px 0;
+}	
+/*----------------------------------------------------center-------------------------------------------------*/
